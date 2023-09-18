@@ -2,7 +2,28 @@
   color: black;
   width: 500px;
   border-collapse: collapse;
-  border: 1px solid grey;
+  border: 2px solid gray;
   text-align: center;
   margin: auto auto;
+}
+
+th {
+  border: 2px solid gray;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+td {
+  border: 2px solid gray;
+
+  font-weight: 200px;
+  font-size: 12px;
+  padding: 5px 0;
+}
+
+tr:nth-child(odd) {
+  background-color: bisque;
 }

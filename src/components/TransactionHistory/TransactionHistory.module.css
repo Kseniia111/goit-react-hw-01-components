@@ -1,10 +1,10 @@
 .transaction_history {
   color: black;
-  width: 500px;
+  width: 420px;
   border-collapse: collapse;
-  border: 2px solid gray;
+  box-shadow: 0 0 10px lightgray;
   text-align: center;
-  margin: auto auto;
+  margin: 20px auto;
 }
 
 th {
@@ -24,6 +24,10 @@ td {
   padding: 5px 0;
 }
 
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
 tr:nth-child(odd) {
-  background-color: bisque;
+  background-color: whitesmoke;
 }

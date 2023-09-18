@@ -1,11 +1,9 @@
 .profile {
-  background-color: #ffffff;
-  /*display: flex;
-  flex-direction: column;*/
+  background-color: white;
   margin: auto auto;
   align-items: center;
   padding-top: 15px;
-  width: 460px;
+  width: 420px;
   box-shadow: 0 0 10px lightgray;
   border-radius: 10px;
 }
